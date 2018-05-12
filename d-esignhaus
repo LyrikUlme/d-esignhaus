@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<style>
+
+   {
+    box-sizing: border-box;
+}
+	.bg-1 {
+		background-color:#000D2C;
+		color: #ffffff;
+	}
+	.bg-2{
+		background-color: #081E4F;
+		color: #ffffff;
+	}
+	.bg-3 {
+		background-color: #2E4272;
+		color: #ffffff;
+	}
+	.container-fluid{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	}
+
+p{font-family: unifont, csur, medium;
+
+}
+ .main {
+    width: 100%;
+    float: left;
+}
+{
+text-align: left;
+}
+
+.button1 {background-color: #e7e7e7; color: black;}
+
+
+</style>
+
+<title style="color: white"> Lyrik Ulme Designhaus</title>
+ <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	 
+</head>
+
+<header class="bg-1" data-spy="scroll" data-target=".navbar" data-offset="50"> 
+
+ <nav class="navbar navbar-navbar">
+  <div class="container-fluid ">
+    <div class="navbar-header">
+      <a style="font-family: unifont, csur, medium color:white" class="navbar-brand" href="#">LYRIK ULME DESIGNHAUS</a>
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active" >
+      <li><a style="font-family: unifont, csur, medium color: white" href="#section1">About</a></li>
+      <li><a style="font-family: unifont, csur, medium color: white"  href="#section2">Portfolio</a></li>
+      <li><a style="font-family: unifont, csur, medium color: white" href="#section3">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+<body>
+
+
+<div id="section1" class=" bg-1 container-fluid main background-image">
+<h1 style="font-family: unifont, csur, medium">About</h1>
+	<p>The Lyrik Ulme Designhaus stands for clean, minimalist and zen-like webdesign.<br>
+ Inspired by the buddhist tradition, focussing on the essence, we strive to design webpages <br>
+    that will help your customer find on your website what is right for them without confusion. <br> </p>
+	</div>
+<div id="section2" class=" bg-2 container-fluid main background-image">
+<h1 style="font-family: unifont, csur, medium">Portfolio</h1>
+<p>Clicking on one of these thumbnails will reveal<br>
+examples of webdesigns according to our philosophy.<br>					
+</p>	
+
+<div class="row background-image">
+    <div class="col-sm-4">
+      <p> Here you will find a link to one of my projects, soon.</p>
+      <img src="#" class="image-responsive" style="font-family: unifont, csur, medium" alt="Image">
+    </div>
+    <div class="col-sm-4 background-image">
+      <p>The other projects are still in progress...</p>
+      <img src="#" class="image-responsive" style="font-family: unifont, csur, medium" alt="Image">
+    </div>
+    <div class="col-sm-4 background-image"> 
+      <p>Seriously, I am coding websites as we speak.</p>
+      <img src="#" class="image-responsive" style="font-family: unifont, csur, medium" alt="Image">
+    </div>
+  </div>
+</div>
+<div id="section3" class=" bg-3 container-fluid main background-image">
+<h1 style="font-family:unifont, csur, medium">Contact</h1>
+	<p>If you like to get a proposal or quote for your webdesign,<br>
+	please send us a message via the form on the right.<br>Don't worry, we have
+	a strict NO SPAM Policy!<br>
+	You also find us on Instagram! Check out our profile and leave a like! </p>
+    
+    <form>
+    First Name<br>
+    <input  style="color:black"type="text"> <br>
+    E-Mail <br>
+    <input style="color:black"type="text"> <br>
+    <input class="button1"type="submit" value="submit"><br>
+    </form>
+</div>
+</body>
+
+</html>
